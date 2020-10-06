@@ -1,0 +1,64 @@
+.table[data-v-9e1a0b] {
+  background-color: white;
+  color: #363636;
+}
+.table td[data-v-9e1a0b],
+.table th[data-v-9e1a0b] {
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+}
+.table th[data-v-9e1a0b] {
+  color: #363636;
+}
+.table th[data-v-9e1a0b]:not([align]) {
+  text-align: inherit;
+}
+.table thead[data-v-9e1a0b] {
+  background-color: transparent;
+}
+.table thead td[data-v-9e1a0b],
+.table thead th[data-v-9e1a0b] {
+  border-width: 0 0 2px;
+  color: #363636;
+}
+.table tfoot[data-v-9e1a0b] {
+  background-color: transparent;
+}
+.table tfoot td[data-v-9e1a0b],
+.table tfoot th[data-v-9e1a0b] {
+  border-width: 2px 0 0;
+  color: #363636;
+}
+.table tbody[data-v-9e1a0b] {
+  background-color: transparent;
+}
+.table tbody tr:last-child td[data-v-9e1a0b],
+.table tbody tr:last-child th[data-v-9e1a0b] {
+  border-bottom-width: 0;
+}
+.table.is-bordered td[data-v-9e1a0b],
+.table.is-bordered th[data-v-9e1a0b] {
+  border-width: 1px;
+}
+.table.is-bordered tr:last-child td[data-v-9e1a0b],
+.table.is-bordered tr:last-child th[data-v-9e1a0b] {
+  border-bottom-width: 1px;
+}
+.table.is-fullwidth[data-v-9e1a0b] {
+  width: 100%;
+}
+.table.is-hoverable tbody tr[data-v-9e1a0b]:not(.is-selected):hover {
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.table.is-hoverable.is-striped tbody tr[data-v-9e1a0b]:not(.is-selected):hover {
+  background-color: #fafafa;
+}
+.table.is-hoverable.is-striped tbody tr[data-v-9e1a0b]:not(.is-selected):hover:nth-child(even) {
+  background-color: whitesmoke;
+}
+.table.is-striped tbody tr[data-v-9e1a0b]:not(.is-selected):nth-child(even) {
+  background-color: #fafafa;
+}

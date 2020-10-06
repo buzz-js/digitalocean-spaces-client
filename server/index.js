@@ -1,10 +1,13 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 
-// Static files
-app.use(express.static('public'));
+require("dotenv").config();
+
+// Middlewares
+app.use(cors());
 
 // Routes
-app.use(require("./routes"));
+app.use("/api", require("./routes"));
 
 app.listen(1802, () => console.log("server listening"));
